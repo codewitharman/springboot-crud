@@ -1,17 +1,22 @@
--- This file runs automatically when the app starts.
--- It pre-fills the database with 5 sample employees.
+INSERT INTO EMPLOYEES 
+(ID, FIRST_NAME, LAST_NAME, EMAIL, DEPARTMENT, SALARY, CREATED_AT, UPDATED_AT)
+VALUES
+(1, 'Arjun', 'Sharma', 'arjun.sharma@gmail.com', 'IT', 65000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
 
-INSERT INTO employees (first_name, last_name, email, department, salary)
-VALUES ('Alice', 'Johnson', 'alice@example.com', 'Engineering', 85000.00);
+(2, 'Priya', 'Verma', 'priya.verma@gmail.com', 'HR', 55000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
 
-INSERT INTO employees (first_name, last_name, email, department, salary)
-VALUES ('Bob', 'Smith', 'bob@example.com', 'Marketing', 72000.00);
+(3, 'Rahul', 'Patel', 'rahul.patel@gmail.com', 'Finance', 72000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
 
-INSERT INTO employees (first_name, last_name, email, department, salary)
-VALUES ('Carol', 'Williams', 'carol@example.com', 'HR', 68000.00);
+(4, 'Sneha', 'Iyer', 'sneha.iyer@gmail.com', 'Marketing', 60000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
 
-INSERT INTO employees (first_name, last_name, email, department, salary)
-VALUES ('David', 'Brown', 'david@example.com', 'Engineering', 90000.00);
+(5, 'Amit', 'Kulkarni', 'amit.kulkarni@gmail.com', 'IT', 70000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
 
-INSERT INTO employees (first_name, last_name, email, department, salary)
-VALUES ('Eva', 'Davis', 'eva@example.com', 'Finance', 78000.00);
+(6, 'Neha', 'Gupta', 'neha.gupta@gmail.com', 'HR', 58000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+(7, 'Rohit', 'Singh', 'rohit.singh@gmail.com', 'Sales', 63000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+(8, 'Anjali', 'Mehta', 'anjali.mehta@gmail.com', 'Finance', 67000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+(9, 'Vikram', 'Reddy', 'vikram.reddy@gmail.com', 'IT', 75000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+
+(10, 'Pooja', 'Chopra', 'pooja.chopra@gmail.com', 'Marketing', 61000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);

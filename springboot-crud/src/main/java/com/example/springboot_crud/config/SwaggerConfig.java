@@ -33,7 +33,6 @@ public class SwaggerConfig {
 						""").version("v1.0.0")
 						.contact(new Contact().name("Arman Shaikh").email("arman.shaikh@crud.com")
 								.url("https://github.com/codewitharman"))
-						// License info (optional)
 						.license(new License().name("Apache 2.0").url("https://www.apache.org/licenses/LICENSE-2.0")))
 
 				.servers(List.of(new Server().url("http://localhost:8080").description("Local Development Server"),
